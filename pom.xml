@@ -35,6 +35,14 @@
             <name>google-maven</name>
             <url>https://dl.google.com/dl/android/maven2</url>
         </repository>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>central</id>
+            <name>bintray</name>
+            <url>http://jcenter.bintray.com</url>
+        </repository>
     </repositories>
 
     <dependencies>
